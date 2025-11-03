@@ -1,0 +1,41 @@
+# Cloudflare Workers
+.dev.vars
+.wrangler/
+worker-configuration.d.ts
+wrangler.toml.backup
+
+# Dependencies
+node_modules/
+package-lock.json
+.pnpm-store/
+
+# Environment
+.env
+.env.local
+.env.production
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build
+dist/
+build/
+.cache/
+
+# Temporary files
+temp_*.pdf
+*.tmp
